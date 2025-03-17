@@ -1,0 +1,6 @@
+  defaults:
+    - /schemas/models/insightface@_here_
+    - _self_
+
+  model_path: "backbone_ir50_ms1m_epoch120.pth"
+  dropout_model: False

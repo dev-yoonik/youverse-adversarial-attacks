@@ -1,0 +1,15 @@
+{
+  "BiometricEngineFactory":
+  {
+    "TYPE": "EmbeddedMatcher",
+    "BACKEND": "OnnxRuntime",
+    "FACE_DETECTOR": "Scrfd",
+    "URL": "C:\\Users\\joaot\\Documents\\Code\\yk-adversarial-attack\\files\\models\\",
+    "IMAGE_WIDTH": 112,
+    "QUEUEING": false,
+    "BROKER_ADDRESS": "localhost",
+    "USE_LIGHT_DETECTOR": true,
+    "GPU_INDEX": -1,
+    "MATCHER_VERSION": "v003"
+  }
+}

@@ -1,0 +1,10 @@
+defaults:
+  - attack: cw
+  - model: insightface_r50
+  - dataset_attacker: lfw_attacker
+
+save_root: "D:/results/LFW_attacks"
+save_dir: "${.save_root}/${basename:${dataset_attacker.dataset_root}}_attack/${attack_name:${attack._target_}}/Run_${now:%Y-%m-%d-%H-%M-%S}"
+hydra:
+  run:
+    dir: ${save_dir}

@@ -1,0 +1,3 @@
+defaults:
+  - /schemas/attacks/deepfool@_here_
+  - _self_

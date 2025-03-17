@@ -1,0 +1,7 @@
+defaults:
+  - /schemas/dataset_attackers/lfw_benchmark_multithreaded@_here_
+  - _self_
+
+dataset_root: ""
+pairs_txt_path: ""
+num_threads: 4
