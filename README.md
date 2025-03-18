@@ -1,3 +1,5 @@
+![logo](https://yk-website-images.s3.eu-west-1.amazonaws.com/LogoV4_TRANSPARENT.png?)
+
 # README #
 
 This repository aggregates several adversarial attacks adapted for face recognition purposes.
