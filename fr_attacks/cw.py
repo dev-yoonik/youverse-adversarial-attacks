@@ -167,7 +167,7 @@ class CWAttack(BaseAttack):
             loss = self.calculate_adversarial_loss(
                 adversarial_image=adversarial_image,
                 adversarial_features=adversarial_features,
-                target=target,
+                target_image=target,
                 target_features=target_features,
                 targeted=self.targeted)
 

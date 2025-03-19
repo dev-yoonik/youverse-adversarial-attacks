@@ -266,7 +266,7 @@ def load_insightface_ir50_model(model_path: str,
                                 align_models_root: str = None,
                                 device: str = 'cuda:0'):
     model = IR_50([112,112])
-    model.load_state_dict(torch.load(model_path, weights_only=True))
+    model.load_state_dict(torch.load(model_path, weights_only=False, map_location=torch.device(device)))
     model.eval()
     model.to(device)
     attack_model = InsightFaceFRModel(model, device=device, align_models_root=align_models_root)

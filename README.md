@@ -53,6 +53,10 @@ After setting up the attack, dataset attacker and model configs, simply run:
 
 A new folder will be generated with the attacked images and logs.
 
+##### Model #####
+
+We make available a single [open source FR model](https://1drv.ms/u/c/5fcfe07ba7cf0300/ETcJlEC23OJPjtOEiRIgZwMB-xeBMgV7hkqQpxrhrJp5KA?e=j8c7AL) based on the insightface architecture which can be used with the insightface model config.
+
 #### Use in own pipeline: ####
 
 The attacks were implemented in the albumentations format, a common image augmentation library. As such,
